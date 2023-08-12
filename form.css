@@ -4,7 +4,7 @@
 }
 main{
     position: absolute;
-    padding-left: 35vw;
+    padding-left: 25%;
     padding-top:1vh ;
     display: inline-block;
 }
@@ -93,4 +93,29 @@ label:hover{
     color: #fff;
     padding: 15px 25px;
     transition: .3s;
+}
+
+@media only screen and (max-width: 414px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        width: 80%; 
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
 }

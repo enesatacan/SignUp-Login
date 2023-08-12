@@ -114,8 +114,6 @@ label{
     display: inline-block;
    transition: .2s;
 }
-
-
 #loginbtn{
     margin-top: 15%;
     padding: 10px 20px;
@@ -136,4 +134,73 @@ label{
     font-size: 20px;
     border: solid rgb(255, 111, 105 ); 
     transition: .3s;
+    
+}
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+    main {
+        left: 0;
+        top: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .welcomeback,
+    .login {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    main {
+        left: 0;
+        top: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .welcomeback,
+    .login {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    main {
+        left: 0;
+        top: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .welcomeback,
+    .login {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    main {
+        left: 0;
+        top: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .welcomeback,
+    .login {
+        width: 100%;
+        padding: 20px;
+    }
 }
