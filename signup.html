@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div >
+            <h1 id="header">User Sign Up Form</h1>
+        </div>
+            <form class="signup" action="signup">
+                <ul class="form">
+                    <li >
+                        <label for="name">Name:</label>
+                        <input class="article" type="text" id="name">
+                    </li>
+                    <li >
+                        <label for="surname">Surname:</label>
+                        <input class="article" type="text" id="surname">
+                    </li>
+                    <li >
+                        <label for="email">E-Mail:</label>
+                        <input class="article" type="email" id="email">
+                    </li>
+                    <li class=" gender">
+                        <label for="gender">Gender:</label>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                    </li>
+                    <li >
+                        <label for="birthday">Birthday:</label>
+                        <input class="article" type="date" id="birthday">
+                    </li>
+                    <li >
+                        <label for="password">Password:</label>
+                        <input class="article" type="password" id="password">
+                    </li>
+                    <li class="center" >
+                        <a href="#"><label id="accept" for="checkbox">I Accept the User Agreement</label></a>
+                        <input type="checkbox">
+                    </li>
+                    <li class="center">
+                        <input id="btn" type="submit" value="Sign Up">
+                        <input id="btn" type="reset" value="Reset">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        
+    </main>
+   
+    
+</body>
+</html>
